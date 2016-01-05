@@ -1,8 +1,8 @@
-package com.hehz.aop.cglib;
+package com.hhz.aop.cglib;
 
 import java.lang.reflect.Method;
 
-import com.hehz.common.ProfileHandler;
+import com.hhz.common.ProfileHandler;
 
 import net.sf.cglib.proxy.Enhancer;
 import net.sf.cglib.proxy.MethodInterceptor;

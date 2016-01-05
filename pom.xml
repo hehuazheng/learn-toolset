@@ -12,6 +12,7 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <spring-framework.version>3.2.7.RELEASE</spring-framework.version>
     </properties>
 
     <dependencies>
@@ -21,6 +22,13 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+            <version>${spring-framework.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        
         <!-- 3rd party -->
         <dependency>
             <groupId>cglib</groupId>

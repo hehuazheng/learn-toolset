@@ -31,7 +31,7 @@ public class QueueMessageConsumerDemo2 {
 				String queueName = "testQueue2";
 				Destination destination = sess.createQueue(queueName);
 				MessageConsumer consumer = sess.createConsumer(destination);
-				for (int i = 0; i < 10; i++) {
+				for (int i = 0; i < 50; i++) {
 					TextMessage message = (TextMessage) consumer.receive();
 					System.out
 							.println("message received: " + message.getText());

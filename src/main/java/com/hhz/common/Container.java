@@ -1,4 +1,4 @@
-package com.hehz.common;
+package com.hhz.common;
 
 public class Container {
 	

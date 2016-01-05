@@ -1,7 +1,7 @@
-package com.hehz.common.i.impl;
+package com.hhz.common.i.impl;
 
-import com.hehz.annotation.Profile;
-import com.hehz.common.i.IAutomobile;
+import com.hhz.annotation.Profile;
+import com.hhz.common.i.IAutomobile;
 
 @Profile
 public class Bike implements IAutomobile {

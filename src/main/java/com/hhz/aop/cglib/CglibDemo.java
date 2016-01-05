@@ -1,6 +1,6 @@
-package com.hehz.aop.cglib;
+package com.hhz.aop.cglib;
 
-import com.hehz.common.i.impl.Bike;
+import com.hhz.common.i.impl.Bike;
 
 public class CglibDemo {
 

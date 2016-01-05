@@ -1,8 +1,8 @@
-package com.hehz.common;
+package com.hhz.common;
 
 import java.lang.reflect.Method;
 
-import com.hehz.annotation.Profile;
+import com.hhz.annotation.Profile;
 
 public class ProfileHandler extends AnnotationHandler {
 

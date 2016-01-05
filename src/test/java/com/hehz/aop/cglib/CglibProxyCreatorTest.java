@@ -2,7 +2,8 @@ package com.hehz.aop.cglib;
 
 import org.junit.Test;
 
-import com.hehz.common.i.impl.Bike;
+import com.hhz.aop.cglib.CglibProxyCreator;
+import com.hhz.common.i.impl.Bike;
 
 public class CglibProxyCreatorTest {
 

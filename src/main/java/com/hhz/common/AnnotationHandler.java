@@ -1,4 +1,4 @@
-package com.hehz.common;
+package com.hhz.common;
 
 import java.lang.reflect.Method;
 

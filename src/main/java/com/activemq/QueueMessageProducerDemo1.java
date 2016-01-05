@@ -31,7 +31,7 @@ public class QueueMessageProducerDemo1 {
 				Destination destination = sess.createQueue(queueName);
 				MessageProducer producer = sess.createProducer(destination);
 				producer.setDeliveryMode(DeliveryMode.PERSISTENT);
-				for (int i = 0; i < 10; i++) {
+				for (int i = 0; i < 50; i++) {
 					System.out.println("i is: " + i);
 					producer.send(sess.createTextMessage("msg" + i));
 				}

@@ -1,4 +1,4 @@
-package com.hehz.common.i;
+package com.hhz.common.i;
 
 public interface IAutomobile {
 	String getName();
