@@ -1,4 +1,4 @@
-package com.hehz;
+package com.hhz;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

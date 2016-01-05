@@ -1,4 +1,4 @@
-package com.hehz.aop.cglib;
+package com.hhz.aop.cglib;
 
 import org.junit.Test;
 
